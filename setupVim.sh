@@ -9,8 +9,9 @@ set number
 set wildmenu
 set hlsearch
 syntax on
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
+set expandtab
 set ignorecase
 colo default
 set nocindent
