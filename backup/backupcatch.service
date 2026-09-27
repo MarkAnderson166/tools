@@ -1,0 +1,9 @@
+[Unit]
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=Mark
+Type=oneshot
+ExecStart=/usr/bin/python3 /home/Mark/Projects/tools/backup/backupcatch.py
+RemainAfterExit=yes

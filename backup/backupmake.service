@@ -1,0 +1,8 @@
+[Unit]
+After=local-fs.target
+
+[Service]
+User=Mark
+ExecStart=/usr/bin/python3 /home/Mark/Projects/tools/backup/backupmake.py
+Restart=always
+RestartSec=3600
