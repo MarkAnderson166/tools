@@ -7,3 +7,6 @@ User=mark
 Type=oneshot
 ExecStart=/usr/bin/python3 /home/mark/Projects/tools/backup/backupcatch.py
 RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
