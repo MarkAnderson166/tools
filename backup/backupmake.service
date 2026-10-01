@@ -5,4 +5,7 @@ After=local-fs.target
 User=Mark
 ExecStart=/usr/bin/python3 /home/Mark/Projects/tools/backup/backupmake.py
 Restart=always
-RestartSec=3600
+RestartSec=21600
+
+[Install]
+WantedBy=multi-user.target

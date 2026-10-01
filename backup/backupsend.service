@@ -7,3 +7,6 @@ User=Mark
 ExecStart=/usr/bin/python3 /home/Mark/Projects/tools/backup/backupsend.py
 Restart=always
 RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
